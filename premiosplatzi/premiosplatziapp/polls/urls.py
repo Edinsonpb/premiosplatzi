@@ -4,6 +4,6 @@ from django.urls import URLPattern, paht
 
 from . import views
 
-URLPatterns = [
+urlpatterns = [
     path("", views.index, name="index")
 ]
